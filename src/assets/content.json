@@ -1,0 +1,43 @@
+{
+  "header": {
+    "cta": {
+      "left": {
+        "title": "Explore",
+        "submenu": [
+          {
+            "title": "Work",
+            "url": "/work"
+          },
+          {
+            "title": "About",
+            "url": "/about"
+          },
+          {
+            "title": "Blog",
+            "url": "/blog"
+          },
+          {
+            "title": "Resources",
+            "url": "/resources"
+          }
+        ]
+      },
+      "right": {
+        "title": "Contact",
+        "url": "/contact"
+      },
+      "center": {
+        "title": "MIEHIKA SAHU",
+        "url": "/",
+        "logo": "/assets/logo.jpg"
+      }
+    }
+  },
+  "homepage_slider": [
+    "https://ik.imagekit.io/miehika/cdn/branding8.png",
+    "https://ik.imagekit.io/miehika/cdn/branding.png",
+    "https://ik.imagekit.io/miehika/cdn/digitals2.png",
+    "https://ik.imagekit.io/miehika/cdn/print10.png",
+    "https://ik.imagekit.io/miehika/cdn/print6.png"
+  ]
+}
