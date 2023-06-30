@@ -1,8 +1,9 @@
 @import "../../../assets/colors.scss";
 header {
-  position: absolute;
+  position: fixed;
   background-color: $header-background;
-  backdrop-filter: blur(10px);
+
+  backdrop-filter: blur(10px) invert(10%);
   padding: 5px;
   border: none;
   border-radius: 10px;

@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   siteContent: any;
   headerData: any;
   homepage_slider: any;
+  homepage_jumbotron_1: any;
   jsonUrl = 'assets/content.json';
   constructor(private http: HttpClient) {}
 
@@ -18,6 +19,7 @@ export class AppComponent implements OnInit {
       this.siteContent = data;
       this.headerData = this.siteContent.header;
       this.homepage_slider = this.siteContent.homepage_slider;
+      this.homepage_jumbotron_1 = this.siteContent.homepage_jumbotron_1;
     });
   }
 }
