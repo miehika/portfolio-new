@@ -1,0 +1,18 @@
+<div class="jumbotron_main">
+  <span
+    class="jumbotron_title"
+    *ngIf="jumbotronData.title"
+    [innerHTML]="jumbotronData?.title"
+  ></span
+  ><br />
+  <span
+    class="jumbotron_subtitle"
+    *ngIf="jumbotronData.subtitle"
+    [innerHTML]="jumbotronData?.subtitle"
+  ></span>
+  <div class="jumbotron_cta" *ngIf="jumbotronData.cta">
+    <a routerLink="{{jumbotronData.cta.cta_primary.url}}" class="jumbotron_cta_primary" *ngIf="jumbotronData.cta.cta_primary">{{jumbotronData.cta.cta_primary.title}}</a>
+    <a routerLink="{{jumbotronData.cta.cta_secondary.url}}" class="jumbotron_cta_secondary" *ngIf="jumbotronData.cta.cta_secondary">{{jumbotronData.cta.cta_secondary.title}}</a>
+
+  </div>
+</div>
