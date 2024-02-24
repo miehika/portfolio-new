@@ -1,4 +1,4 @@
-@import "../../../assets/colors.scss";
+@import "../../../custom";
 
 // Animation
 @keyframes scroll {
@@ -8,7 +8,7 @@
   90% {
     transform: translate(calc(-100% + 100vw), 0);
   }
-  100%{
+  100% {
     transform: translate(0);
   }
 }

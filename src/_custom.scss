@@ -1,0 +1,10 @@
+@import "colors";
+.page-margin {
+  margin: 5px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-margin {
+    margin: 5px 10px;
+  }
+}

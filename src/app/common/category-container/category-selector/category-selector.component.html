@@ -1,0 +1,19 @@
+<div class="category-slider-container page-margin">
+  <div class="category-slider-left">
+    <button
+      [ngClass]="i === selectedIndex ? 'slider-btn selected' : 'slider-btn'"
+      *ngFor="let title of categoryTitles; let i = index"
+      (click)="onCategorySelect(i)"
+    >
+      {{ title }}
+    </button>
+  </div>
+  <div class="category-slider-right">
+    <button
+      [ngClass]="selectedIndex === -1 ? 'slider-btn selected' : 'slider-btn'"
+      (click)="onCategorySelect(-1)"
+    >
+      View All
+    </button>
+  </div>
+</div>

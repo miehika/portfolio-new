@@ -1,0 +1,36 @@
+@import "../../../../custom";
+.category-slider-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+  .slider-btn {
+    background-color: transparent;
+    color: $primary-text;
+    border: 1px solid $border-light;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    min-width: max-content;
+    cursor: pointer;
+    transition: $transition;
+    &:hover {
+      border: 1px solid $primary-text;
+    }
+    &:active {
+      opacity: 0.8;
+    }
+  }
+  .selected {
+    background-color: $primary-text;
+    color: $secondary-text;
+    &:active {
+      opacity: 0.8;
+    }
+  }
+  .category-slider-left {
+    display: flex;
+    flex-direction: row;
+  }
+}

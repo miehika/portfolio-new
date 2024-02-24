@@ -1,0 +1,16 @@
+<div class="category-slider page-margin" *ngIf="categoriesMetadata">
+  <div
+    class="category-post"
+    *ngFor="let post of categoriesMetadata | slice : 0 : 3"
+  >
+    <div class="post-image">
+      <img class="image" src="{{ post.image }}" alt="" />
+    </div>
+    <div class="post-title">
+      {{ post.title }}
+    </div>
+    <div class="post-description">
+      {{ post.description }}
+    </div>
+  </div>
+</div>

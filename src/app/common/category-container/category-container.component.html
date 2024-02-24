@@ -1,0 +1,9 @@
+<div class="category-container" *ngIf="categoryData">
+  <app-category-selector
+    [categoryTitles]="categoryTitles"
+    (categorySelected)="onCategorySelect($event)"
+  ></app-category-selector>
+  <app-category-slider
+    [categoriesMetadata]="selectedCategoryData"
+  ></app-category-slider>
+</div>

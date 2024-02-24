@@ -1,0 +1,69 @@
+{
+  "header": {
+    "cta": {
+      "left": {
+        "title": "Explore",
+        "submenu": [
+          {
+            "title": "Work",
+            "url": "/work"
+          },
+          {
+            "title": "About",
+            "url": "/about"
+          },
+          {
+            "title": "Blog",
+            "url": "/blog"
+          },
+          {
+            "title": "Resources",
+            "url": "/resources"
+          }
+        ]
+      },
+      "right": {
+        "title": "Contact",
+        "url": "/contact"
+      },
+      "center": {
+        "title": "MIEHIKA SAHU",
+        "url": "/",
+        "logo": "/assets/logo.jpg"
+      }
+    }
+  },
+  "homepage": {
+    "slider": [
+      "https://ik.imagekit.io/miehika/cdn/branding8.png",
+      "https://ik.imagekit.io/miehika/cdn/print6.png",
+      "https://ik.imagekit.io/miehika/cdn/branding.png",
+      "https://ik.imagekit.io/miehika/cdn/digitals2.png",
+      "https://ik.imagekit.io/miehika/cdn/print10.png",
+      "https://ik.imagekit.io/miehika/cdn/print6.png"
+    ],
+    "jumbotron_1": {
+      "title": "Designing Visions,<br> Shaping Aesthetics.",
+      "subtitle": "Hello from the other side.",
+      "cta": {
+        "cta_primary": {
+          "title": "Contact",
+          "url": "/contact"
+        },
+        "cta_secondary": {
+          "title": "Explore",
+          "url": "/work"
+        }
+      }
+    },
+    "showcase": {
+      "Brand Identity": [
+        {
+          "image": "https://ik.imagekit.io/miehika/cdn/branding8.png",
+          "title": "Brand Identity",
+          "description": "We create brand identities that are unique, memorable and timeless. We believe that a brand is more than just a logo, it is the entire experience that your customers have with your company. We help you create a brand that is consistent across all touch points and creates a lasting impression on your customers."
+        }
+      ]
+    }
+  }
+}

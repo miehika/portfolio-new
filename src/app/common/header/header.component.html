@@ -1,4 +1,4 @@
-<header>
+<header *ngIf="headerData">
   <div class="header_cta_left">
     <a>{{ headerData.cta.left.title }}</a>
     <div class="header_hidden_menu">
@@ -8,9 +8,10 @@
     </div>
   </div>
   <div class="header_main_content">
-    <img src="{{ headerData.cta.center.logo }}" class="header_logo" alt="" /><a href="{{headerData.cta.center.url}}">{{
-      headerData.cta.center.title
-    }}</a>
+    <img src="{{ headerData.cta.center.logo }}" class="header_logo" alt="" /><a
+      href="{{ headerData.cta.center.url }}"
+      >{{ headerData.cta.center.title }}</a
+    >
   </div>
   <div class="header_cta_right">
     <a routerLink="{{ headerData.cta.right.url }}">{{
